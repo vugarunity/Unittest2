@@ -17,8 +17,8 @@ public class Main {
 
         Car car = new Car(carCompany, carModel, carYear);
 
-        // Ввод данных для мотоцикла
-        scanner.nextLine(); // Пропустить перевод строки после ввода числа
+       
+        scanner.nextLine(); 
         System.out.println("Enter motorcycle company:");
         String motorcycleCompany = scanner.nextLine();
         System.out.println("Enter motorcycle model:");
@@ -29,7 +29,7 @@ public class Main {
 
         Motorcycle motorcycle = new Motorcycle(motorcycleCompany, motorcycleModel, motorcycleYear);
 
-        // Демонстрация работы методов
+       
         System.out.println("\n--- Car Test Drive ---");
         System.out.println("Initial speed of car: " + car.getSpeed());
         car.testDrive();
